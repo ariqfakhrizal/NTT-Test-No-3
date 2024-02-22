@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Workspace\\Target Company\\NTT Ltd\\NTT_Test_No_3.MSTest\\NTT_Test_No_3.MSTest.csproj": {}
+    "D:\\Workspace\\Github\\NTT Ltd Pte - Github\\ProgrammingTest_No_3\\NTT-Test-No-3\\NTT_Test_No_3.MSTest\\NTT_Test_No_3.MSTest.csproj": {}
   },
   "projects": {
-    "D:\\Workspace\\Target Company\\NTT Ltd\\NTT_Test_No_3.MSTest\\NTT_Test_No_3.MSTest.csproj": {
+    "D:\\Workspace\\Github\\NTT Ltd Pte - Github\\ProgrammingTest_No_3\\NTT-Test-No-3\\NTT_Test_No_3.MSTest\\NTT_Test_No_3.MSTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Workspace\\Target Company\\NTT Ltd\\NTT_Test_No_3.MSTest\\NTT_Test_No_3.MSTest.csproj",
+        "projectUniqueName": "D:\\Workspace\\Github\\NTT Ltd Pte - Github\\ProgrammingTest_No_3\\NTT-Test-No-3\\NTT_Test_No_3.MSTest\\NTT_Test_No_3.MSTest.csproj",
         "projectName": "NTT_Test_No_3.MSTest",
-        "projectPath": "D:\\Workspace\\Target Company\\NTT Ltd\\NTT_Test_No_3.MSTest\\NTT_Test_No_3.MSTest.csproj",
+        "projectPath": "D:\\Workspace\\Github\\NTT Ltd Pte - Github\\ProgrammingTest_No_3\\NTT-Test-No-3\\NTT_Test_No_3.MSTest\\NTT_Test_No_3.MSTest.csproj",
         "packagesPath": "C:\\Users\\M. Ariq Fakhrizal\\.nuget\\packages\\",
-        "outputPath": "D:\\Workspace\\Target Company\\NTT Ltd\\NTT_Test_No_3.MSTest\\obj\\",
+        "outputPath": "D:\\Workspace\\Github\\NTT Ltd Pte - Github\\ProgrammingTest_No_3\\NTT-Test-No-3\\NTT_Test_No_3.MSTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\M. Ariq Fakhrizal\\AppData\\Roaming\\NuGet\\NuGet.Config",

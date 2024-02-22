@@ -10,28 +10,30 @@ namespace NTT
         public static void Main(string[] args)
         {
             Console.Write("Input Z : ");
-            int Z = Convert.ToInt32(Console.ReadLine());
-            int result = functionHitungFaktor(Z);
+            int numberEnteredZ = Convert.ToInt32(Console.ReadLine());
+
+            int numberEnteredResult = functionHitungFaktor(numberEnteredZ);
 
             Console.WriteLine();
-            Console.WriteLine("Output Z : " + result);
+            Console.WriteLine("Output Z : " + numberEnteredResult);
 
         }
 
-        public static int functionHitungFaktor(int z)
+        public static int functionHitungFaktor(int numberEnteredZ)
         {
             try {
-                StringBuilder result = new StringBuilder();
+                StringBuilder stringBuilderResult = new StringBuilder();
                 int totalFaktor = 0;
-                for (int start = 1; start <= z; start++)
-                {
-                    if (z % start == 0)
-                    {
-                        result.Append(start);
 
-                        if (start < z)
+                for (int start = 1; start <= numberEnteredZ; start++)
+                {
+                    if (numberEnteredZ % start == 0)
+                    {
+                        stringBuilderResult.Append(start);
+
+                        if (start < numberEnteredZ)
                         {
-                            result.Append(", ");
+                            stringBuilderResult.Append(", ");
                         }
 
                         totalFaktor++;

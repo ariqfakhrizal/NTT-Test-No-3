@@ -4,21 +4,21 @@ namespace NTT_Test_No_3.MSTest
     public class UnitTestNo3
     {
         [TestMethod]
-        public void SoalA_FunctionHitungFaktor_ReturnTrue()
+        [DataRow(6)]
+        public void SoalA_FunctionHitungFaktor_ReturnEqual(int numberEnteredTestZ)
         {
-            int z = 6;
-
-            var result = NTT.NTT_Test_No_3.functionHitungFaktor(z);
-            Assert.AreEqual(4, result);
+            var actualResult = NTT.NTT_Test_No_3.functionHitungFaktor(numberEnteredTestZ);
+            int expectedResult = 4;
+            Assert.AreEqual(expectedResult, actualResult);
         }
 
         [TestMethod]
-        public void SoalB_FunctionHitungFaktor_ReturnTrue()
+        [DataRow(10)]
+        public void SoalB_FunctionHitungFaktor_ReturnTrue(int numberEnteredTestZ)
         {
-            int z = 10;
-
-            var result = NTT.NTT_Test_No_3.functionHitungFaktor(z);
-            Assert.AreEqual(4, result);
+            var actualResult = NTT.NTT_Test_No_3.functionHitungFaktor(numberEnteredTestZ);
+            int expectedResult = 4;
+            Assert.AreEqual(expectedResult, actualResult);
         }
     }
 }
