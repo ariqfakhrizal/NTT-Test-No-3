@@ -19,6 +19,13 @@ Parameter Inputnya
 output : 3
 Karena ada 3 nilai factor dari 10 yaitu 1,2,5
 
+---------------------------------------------------------------------------------------
+
+***KOREKSI SOAL***
+
+**Dibagian ini seharusnya untuk point no b (soal dengan angka 10) memiliki hasil 4.**
+
+---------------------------------------------------------------------------------------
 
 **Jawaban**
 
